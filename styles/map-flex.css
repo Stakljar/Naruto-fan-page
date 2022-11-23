@@ -1,0 +1,172 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body{
+
+    background-color: orange;
+}
+
+header{
+
+    background-color: rgba(255, 212, 131, 0.65);
+    border-radius: 15px;
+    margin: 1%;
+    text-align: center;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+nav{
+
+    background-color: rgba(241, 255, 189, 0.65);
+    border-radius: 15px;
+    margin: 1%;
+    padding: 0.5%;
+    height: 70px;
+}
+
+nav ul{
+
+    border-radius: 10px;
+    height: 100%;
+    list-style-type: none;
+    text-align: center;
+    font-size: 35px;
+}
+
+nav ul li{
+
+    font-family: Verdana, Tahoma, sans-serif;
+    display: inline-block;
+    margin-right: 0.2%;
+    margin-left: 0.2%;
+    height: auto;
+    width: 18%;
+}
+
+nav ul li strong{
+
+    text-decoration-line: underline;
+}
+
+nav ul li a{
+
+    border-style: inset;
+    color:black;
+    display: inline-block;
+    max-height: 100%;
+    width: 70%;
+    line-height: 1.829em;
+    border-radius: 15px;
+}
+
+nav ul li a:hover{
+    
+    background-color: rgba(255, 153, 37, 0.65);
+    color: #ffffff;
+    border-color: rgb(255, 160, 36);
+}
+
+#container{
+
+    background-color: rgba(253, 255, 130, 0.65); 
+    border-radius: 15px; 
+    padding: 2%;
+    padding-bottom: 4%;
+    margin: 1% 1% 4% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+footer div{
+
+    background-color: rgba(255, 212, 131, 0.65);
+    border-radius: 15px; 
+    margin: 1%; 
+    text-align: center;
+}
+
+footer div span{
+
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1366px){
+
+    nav ul{
+
+        font-size: 25px;
+    }
+
+    nav ul li a{
+
+        line-height: 2.6em;
+    }
+}
+
+  @media only screen and (max-width: 1024px){
+
+    nav ul{
+
+        font-size: 20px;
+    }
+
+    nav ul li a{
+
+        line-height: 3.25em;
+    }
+}
+
+  @media only screen and (max-width: 800px){
+
+    nav ul{
+
+        font-size: 15px;
+    }
+    nav ul li a{
+
+        line-height: 4.3333em;
+    }
+}
+
+  @media only screen and (max-width: 600px){
+
+    nav ul{
+
+        font-size: 12px;
+    }
+    nav ul li a{
+
+        line-height: 5.416em;
+    }
+}
+
+a{
+
+    text-decoration: none;
+}
+
+footer a{
+
+    color: blue;
+}
+
+footer a:visited{
+    
+    color: rgb(190, 0, 190);
+}
+
+footer a:hover{
+    
+   text-decoration: underline;
+}
